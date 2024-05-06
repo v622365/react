@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.drop-zone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.drop-zone.dragging {
+  border-color: #007bff;
+}
+
+.drop-zone input {
+  display: none;
+}
